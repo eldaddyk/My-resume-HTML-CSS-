@@ -39,6 +39,7 @@ body {
 .about-content p {
   margin-left: 40px;
   margin-bottom: 30px;
+  padding-top: 40px;
 }
 span {
   font-weight: 700;
@@ -72,6 +73,12 @@ span {
   border: 1px solid rgba(43, 17, 74, 1);
   border-radius: 15%;
   opacity: 0.7;
+  @media screen and (max-width: 992px) {
+    height: 250px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 200px;
+  }
 }
 .cat-mac:hover {
   opacity: 1;
@@ -97,7 +104,6 @@ span {
   display: inline-block;
   justify-content: center;
   width: 350px;
-  min-width: 270px;
   border: 1px solid rgba(43, 17, 74, 0.1);
   border-radius: 5%;
   padding: 10px;
@@ -145,8 +151,6 @@ footer {
   margin-top: 100px;
   font-size: 14pt;
   font-weight: 300;
-  /* background-color: #ffeac2; */
-  /* box-shadow: -1px 1px 1px #312e2e67; */
   text-align: center;
   padding-top: 2pt;
 }
