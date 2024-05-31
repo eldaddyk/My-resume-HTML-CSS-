@@ -107,7 +107,9 @@ span {
 .card {
   background-color: #ffeac2;
   display: inline-block;
+  justify-content: center;
   width: 350px;
+  min-width: 300px;
   border: 1px solid rgba(43, 17, 74, 0.1);
   border-radius: 5%;
   padding: 10px;
@@ -123,6 +125,12 @@ span {
   justify-content: center;
   gap: 20%;
   margin-bottom: 80px;
+  @media screen and (max-width: 992px) {
+    display: grid;
+    align-items: center;
+    gap: 5%;
+    padding-bottom: 120px;
+  }
 }
 .contact {
   margin-top: 160px;
@@ -136,6 +144,11 @@ span {
   margin-top: 40px;
   border-radius: 30%;
   margin: 60px;
+  @media screen and (max-width: 992px) {
+    height: 60px;
+    margin-top: 40px;
+    margin: 20px;
+  }
 }
 footer {
   margin-top: 100px;
