@@ -8,16 +8,12 @@ body {
   margin: 0 auto;
 }
 .title {
-  /* background-color: #452c63;
-  background-opacity: 0.8; */
-  /* background-color: rgba(69, 44, 99, 0.8); */
   background-image: radial-gradient(#ffe5b4 0.5px, rgba(43, 17, 74, 0.7) 0.5px);
   background-size: 20px 20px;
   padding-top: 60px;
   padding-bottom: 80px;
   text-align: center;
   border-bottom: 1.5px solid rgb(238, 165, 157);
-  /* font-family: "Exo 2", "Reddit Mono", sans-serif; */
 }
 .title-content {
   color: rgba(255, 229, 180, 1);
@@ -31,16 +27,11 @@ body {
 }
 .about {
   padding-top: 60px;
-  /* background-color: rgba(255, 229, 180, 1); */
   background-image: radial-gradient(rgba(43, 17, 74, 0.8) 0.5px, #ffe5b4 0.5px);
   background-size: 20px 20px;
   border-top: 1.5px solid rgb(238, 165, 157);
   margin-bottom: 100px;
 }
-/* .about-content {
-  font-size: 18pt;
-  color: rgba(43, 17, 74, 1);
-} */
 .about-content h5 {
   margin-top: 60px;
   margin-left: 40px;
@@ -86,7 +77,6 @@ span {
   opacity: 1;
 }
 .outer {
-  /* display: inline-block; */
   white-space: nowrap;
   position: relative;
   overflow-x: scroll;
@@ -97,8 +87,6 @@ span {
   display: none;
 }
 .outer div {
-  /* width: 24.5%; */
-  /* float: none; */
   height: 90%;
   margin-left: 20px;
   display: inline-block;
