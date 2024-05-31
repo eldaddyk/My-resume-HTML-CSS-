@@ -103,6 +103,9 @@ span {
   padding: 10px;
   margin-bottom: 30px;
   box-shadow: -2px 2px 2px #312e2e67;
+  @media screen and (max-width: 480px) {
+    width: 300px;
+  }
 }
 .skills h3,
 .hobbies h3 {
